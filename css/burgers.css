@@ -1,0 +1,49 @@
+/* styles.css */
+
+.element-with-background {
+    background-image: url('bgimage/whiteviolet1.jpg');
+    background-size: cover;
+}
+
+
+/* Style for the collapsible tab */
+.collapsible-tab {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.options-column {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ccc;
+    overflow-y: scroll;
+    z-index: 1;
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.options-list-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.options-list-item:hover {
+    background-color: #ddd;
+}
+.options-column {
+    display: none; /* Hide it by default */
+}

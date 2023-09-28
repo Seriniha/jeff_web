@@ -1,0 +1,66 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: row; /* Set the main direction to row */
+            min-height: 100vh;
+        }
+
+        .header {
+            background-color: #ccc; /* Change the background color to #ccc */
+            color: #000;
+            padding: 20px 0;
+            text-align: middle;
+            flex: 1; /* Take up 1 part of the row */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; /* Align to the top */
+            align-items: center; /* Center horizontally */
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .header p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .content {
+            background-color: #ccc; /* Change the background color to #ccc */
+            flex: 2; /* Fill the rest of the space with #ccc background */
+            padding: 20px;
+            color: #fff;
+        }
+
+        .menu {
+            background-color: #333;
+            text-align: left;
+            padding: 20px;
+            width: 200px;
+        }
+
+        .menu ul {
+            list-style-type: disc; /* Add bullets to the list items */
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin: 10px 0;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #888; /* Gray color for the text */
+            font-weight: bold;
+            font-size: 18px;
+            display: block;
+        }
+
+        .menu a:hover {
+            color: #fff; /* Change the text color on hover */
+        }
